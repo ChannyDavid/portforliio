@@ -1,0 +1,21 @@
+.monthly {
+    border: 3px solid lightskyblue;
+    margin: 20px;
+    padding: 0px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+ 
+}
+
+.monthly > div {
+    width: calc(100% / 7);
+    height: 40px;
+    background: lightcyan;
+}
+
+.monthly > div:nth-child(2n) {
+    background:lightskyblue;
+}
+
